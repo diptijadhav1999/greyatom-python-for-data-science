@@ -11,57 +11,46 @@ print(new_class)
 new_class.append('Peter Warden')
 # Print updated list
 print(new_class)
-new_class.remove('Carla Gentry')
-print(new_class)
 # Remove the element from the list
+new_class.remove('Carla Gentry')
 
 # Print the list
-courses={'Math':'65',"English":'70',"History":'80',"French":'70',"Science":'60'}
-total=(65+70+80+70+60)
-print(total)
-# Create the Dictionary
-percentage=(total/500)*100
-print(percentage)
-mathematics={'Geoffrey Hinton':'78','Andrew Ng':'95','Sebastian Raschka':'65','Yoshua Benjio':'50','Hilary Mason':'70',
-'Corinna Cortes':'66','Peter Warden':'75'}
+print(new_class)
 
+# Create the Dictionary
 # Slice the dict and stores  the all subjects marks in variable
-max_marks_scored = max(courses,key = courses.get)
-print (max_marks_scored)
-topper = max(mathematics,key = mathematics.get)
-print (topper)
+courses={'Math':'65',"English":'70',"History":'80',"French":'70',"Science":'60'}
+
 # Store the all the subject in one variable `Total`
-topper="Andrew Ng"
-full_name=topper.split()[1] + " " + topper.split()[0]
-print(full_name)
+total=(65+70+80+70+60)
 # Print the total
-certificate_name=full_name.upper()
-print(certificate_name)
+print(total)
 # Insert percentage formula
+percentage=(total/500)*100
 
 # Print the percentage
-
-
-
+print(percentage)
 
 # Create the Dictionary
- 
+ mathematics={'Geoffrey Hinton':'78','Andrew Ng':'95','Sebastian Raschka':'65','Yoshua Benjio':'50','Hilary Mason':'70',
+'Corinna Cortes':'66','Peter Warden':'75'}
 
+create variable
+max_marks_scored = max(courses,key = courses.get)
+print (max_marks_scored)
 
-
-# Given string
-
-
-# Create variable first_name 
-
-# Create variable Last_name and store last two element in the list
-
+# name of topper in mathematics
+topper = max(mathematics,key = mathematics.get)
+print (topper)
 # Concatenate the string
-
+topper="Andrew Ng"
+full_name=topper.split()[1] + " " + topper.split()[0]
 # print the full_name
 
+print(full_name)
 # print the name in upper case
-
+certificate_name=full_name.upper()
+print(certificate_name)
 # Code ends here
 
 
